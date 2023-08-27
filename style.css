@@ -7,7 +7,7 @@ body{
     font-size: 1.9rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    background-image: url("https://images.unsplash.com/photo-1616400619175-5beda3a17896?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3348&q=80");
+    background-image: url("https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     background-size: cover;
     font-size: 1.2rem;
     position: relative;
@@ -20,9 +20,8 @@ body{
    
 }
 .nav h1{
-    z-index:1;
+    z-index: 1;
 }
-
 .nav ul {
     margin: 0;
     padding: 30px;
@@ -90,6 +89,7 @@ label{
     /* margin-top: 20px; */
     padding: 20px;
     color: #f6f6f63e;
+
     position: relative;
     right: 0px;
 }
@@ -100,19 +100,21 @@ input{
     border: none;
     outline: none;
     outline-color: #070f61;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+    
     /* transform: translateX(-50px); */
     position: relative;
-    right: 0px;
+    
     background-color: #c6c6c600;
 }
 
 input::placeholder{
-    color: #060000;
+    color: #ffffff;
     font-size: 1.1rem;
     
     
 }
+
  button{
     display: flex;
     align-items: center;
@@ -124,6 +126,6 @@ input::placeholder{
     color: rgb(98, 16, 31);
     transition: transform 0.3s ease-in-out;
 }
-/* button:hover{
-    transform: scale(.95);
-} */
+button:hover{
+    transform: scale(0.999);
+}
